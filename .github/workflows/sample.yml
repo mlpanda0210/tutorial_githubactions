@@ -1,10 +1,10 @@
 # workflowの名前
-name: Sample actions
+name: Sample actions2
 
 # トリガーの設定
 on:
   push:
-    branches: master # mainブランチの場合はmainに変更
+    branches: main # mainブランチの場合はmainに変更
 
 jobs:
   build:
