@@ -31,11 +31,11 @@ jobs:
         run: echo "I would like a ${FAVORITE_COLOR} ${FAVORITE_FRUIT}"
 
       - name: Success
-        if: ${{ success()} }
+        if: ${{ success() }}
         run: echo "You will always see this"
 
       - name: Canceled
-        if: ${{ canceled()} }
+        if: ${{ canceled() }}
         run: echo "You canceled the workflow"
 
       - name: Failure
