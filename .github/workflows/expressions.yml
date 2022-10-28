@@ -33,11 +33,3 @@ jobs:
       - name: Success
         if: ${{ success() }}
         run: echo "You will always see this"
-
-      - name: Canceled
-        if: ${{ canceled() }}
-        run: echo "You canceled the workflow"
-
-      - name: Failure
-        if: ${{ failure() }}
-        run: echo "Something went wrong..."
